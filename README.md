@@ -117,7 +117,7 @@ Real-time event broadcasting.</p>
       <li>Run Command :  php artisan migrate  </li>
     </ul>
     <h5 style="color:red">Seeder: </h5>
-    <ul>lTo run the tests for application, use
+    <ul>To Run seed ( 100k Data insert into DB )
       <li>Run Command :  php artisan db:seed --class=EmployeeSeeder  </li>
     </ul>
     <li>step 8: Start the Development Server: Use the following command to start the Laravel development server:  <p> php artisan serve </p> </li>
