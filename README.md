@@ -1,4 +1,4 @@
-# GNB-TECH SOFTWARE SOLUTIONS PVT LTD
+## GNB-TECH SOFTWARE SOLUTIONS PVT LTD
   
 <h3>  Develop a core PHP application that combines and displays data from three employee tables, implementing filtering and pagination functionalities using AJAX. </h3>
 <h4>  </h3>Instructions:  </h4>
