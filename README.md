@@ -6,7 +6,7 @@
 
 <p>create and analyze the three employee tables (e.g., employees_1, employees_2, employees_3). </p> 
 <p>Create a SQL query to retrieve and combine the following relevant fields</p>
-<ui>
+<p></p><ui>
   <li>id</li>
   <li>name</li>
   <li>department</li>
@@ -17,7 +17,7 @@
   <li>location</li>
   <li>status (e.g., active, inactive)</li>
   <li> Performance_rating</li>
-</ui>
+</ui></p>
 
 <p>Make sure there’s no duplicated records.</p>
 <p>Generate and insert 100k dummy employee records on three tables.</p> 
