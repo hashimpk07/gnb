@@ -6,7 +6,7 @@
 
 <p>create and analyze the three employee tables (e.g., employees_1, employees_2, employees_3). </p> 
 <p>Create a SQL query to retrieve and combine the following relevant fields</p>
-<p></p><ui>
+<p></p><ul>
   <li>id</li>
   <li>name</li>
   <li>department</li>
@@ -17,7 +17,7 @@
   <li>location</li>
   <li>status (e.g., active, inactive)</li>
   <li> Performance_rating</li>
-</ui></p>
+</ul></p>
 
 <p>Make sure there’s no duplicated records.</p>
 <p>Generate and insert 100k dummy employee records on three tables.</p> 
@@ -95,13 +95,13 @@ Real-time event broadcasting.</p>
 <h2 style="color:red">Project Setup Instructions : </h2>
 <ul>
     <li>Step 1 : Clone the Project Repository : Run the following command to clone the project repository:
-                git clone https://github.com/hashimpk07/tranetech.git </li>
+                https://github.com/hashimpk07/gnb.git  </li>
     <li>Step 2: Configure Environment Filee :  Create and configure the .env file based on the provided template. </li>
     <li>step 3: Set Database Configuration: Update the .env file with your database settings:  
                 <p>DB_CONNECTION=mysql
                     DB_HOST=127.0.0.1
                     DB_PORT=3306
-                    DB_DATABASE=tranetech
+                    DB_DATABASE=gnb
                     DB_USERNAME=root
                     DB_PASSWORD=
                 </p>       
@@ -112,16 +112,17 @@ Real-time event broadcasting.</p>
     <li>Step 5: Verify Vendor Directory: Ensure that the vendor directory has been created in the project root. </li>
     <li>Step 6: Ensure Database Exists: Confirm that the specified database exists and is accessible. </li>
     <li>Step 7: Run Migrations: Execute the following command to apply database migrations , <p> php artisan migrate </p>    </li>
+    <h5 style="color:red">Migration: </h5>
+    <ul>To run the tests for application, use
+      <li>Run Command :  php artisan migrate  </li>
+    </ul>
+    <h5 style="color:red">Seeder: </h5>
+    <ul>lTo run the tests for application, use
+      <li>Run Command :  php artisan db:seed --class=EmployeeSeeder  </li>
+    </ul>
     <li>step 8: Start the Development Server: Use the following command to start the Laravel development server:  <p> php artisan serve </p> </li>
     <li>step 9: Access the Application:Open your browser and navigate to the provided URL to view the application:
     Base URL: http://127.0.0.1:8000
     Admin Login URL: http://127.0.0.1:8000/login </li>
 </ul>
-<h5 style="color:red">Migration: </h5>
-<u>To run the tests for application, use
-  <li>Run Command :  php artisan migrate  </li>
-</u>
-<h5 style="color:red">Seeder: </h5>
-<u>To run the tests for application, use
-  <li>Run Command :  php artisan db:seed  </li>
-</u>
+
